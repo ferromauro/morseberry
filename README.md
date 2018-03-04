@@ -7,7 +7,10 @@ Simple program written for Raspberry that allows translating a text into Morse c
 The text is translated in the form of light signals with the use of a LED connected to Raspberry.
 
 The default circuit provides a LED connection with pin number 17 and any GDR pin of a Raspberry.
+
 Use a 330K resistor to not damage the LED as the scheme below:
 
 ![Morseberry Scheme](/morseberry_scheme.png)
+
+# Watch Morseberry in action: https://youtu.be/DI4vdVTQeaQ
                           
