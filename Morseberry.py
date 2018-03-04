@@ -6,9 +6,10 @@ Created on Sun Feb 25 19:06:04 2018
 @author: Mauro Ferro conctact me at postmaster@ferromauro.it
 """
 import sys
-#from gpiozero import LED
+from gpiozero import LED
 from time import sleep
 
+led = LED(17)
 unity=0.4
 dot=1*unity
 dash=2*unity
@@ -60,9 +61,15 @@ def main():
                     if y == dot:
                         sys.stdout.write('. ')
                         sys.stdout.flush()
+                        led.on()
+                        sleep(y)
+                        led.off()
                     else:
                         sys.stdout.write('_ ')
                         sys.stdout.flush()
+                        led.on()
+                        sleep(y)
+                        led.off()
                     sleep(sbp)
                 print
                 sleep(sbl)
