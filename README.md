@@ -9,5 +9,5 @@ The text is translated in the form of light signals with the use of a LED connec
 The default circuit provides a LED connection with pin number 17 and any GDR pin of a Raspberry.
 Use a 330K resistor to not damage the LED as the scheme below:
 
-
+![Morseberry Scheme](/morseberry_scheme.png)
                           
